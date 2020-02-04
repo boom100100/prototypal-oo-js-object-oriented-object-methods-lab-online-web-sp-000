@@ -5,7 +5,7 @@ let BoardMember = function(name, homeState, training){
 };
 
 BoardMember.prototype.veto = function(){
-  returns ``;
+  returns `No, I must disagree`;
 };
 BoardMember.prototype.approve = function(){};
 BoardMember.prototype.doCharity = function(){};
